@@ -1,0 +1,76 @@
+.titulo {
+  color: blueviolet;
+  position: relative;
+}
+
+.imagen1 {
+  top: 8%;
+  right: 5%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.container-abs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.container-circuito{
+    position: absolute;
+    top: 0%;
+}
+#v1 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 35px;
+}
+#v2 {
+  position: absolute;
+  top:42%;
+  left: 91%;
+  width: 35px;
+}
+#r1 {
+  position: absolute;
+  top: 24%;
+  left: 23%;
+  width: 55px;
+}
+#r2 {
+  position: absolute;
+  top: -3%;
+  left: 67%;
+  width: 55px;
+}
+#beta {
+  position: absolute;
+  top: 54%;
+  left: 53%;
+  width: 35px;
+}
+.boton1{
+    position: absolute;
+    top: 56%;
+    left: 47%;
+}
+.label-beta{
+    position: absolute;
+    top: 49%;
+    left: 53%;
+    width: 35px;
+}
+.container-respuesta{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 34%;
+    width: 35px;
+}
+.respuesta{
+    padding: 10px;
+}
